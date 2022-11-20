@@ -2,7 +2,7 @@ package filter
 
 import (
 	"fmt"
-	"github.com/scim2/filter-parser/v2/internal/types"
+	"github.com/hexa-org/scim-filter-parser/v2/internal/types"
 )
 
 func invalidChildTypeError(parentTyp, invalidType int) error {
